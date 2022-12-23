@@ -134,7 +134,7 @@ const Signup = () => {
         
         <label>{error}</label>
         {isValid && (
-        <Link to="/signup"> 
+        <Link to="/signup2"> 
         <button type='submit'>Submit</button>
        </Link>)}
    
