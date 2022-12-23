@@ -109,6 +109,7 @@ const Signup = () => {
     }} ref={form} >
        
         <div>
+        <label className='lab' id='lab'>Please provide all information only<br/> then submit button will appear</label>
           <label for='fname' className='lab'>FirstName</label>
             <input id='fname' placeholder='enter your firstname' onChange={e=>setFirstName(e.target.value)} name="firstName"/>
         </div>
