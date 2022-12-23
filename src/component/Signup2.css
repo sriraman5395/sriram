@@ -1,0 +1,16 @@
+img{
+    
+   
+    border-radius: 50%;
+  height: 130px;
+  width: 130px;
+     /* margin-left: 20%; */
+     object-fit: cover;
+     display: block;
+  margin: auto;
+}
+.choose{
+    border: none;
+}
+
+
